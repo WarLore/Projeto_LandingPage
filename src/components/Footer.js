@@ -9,8 +9,8 @@ export default class Footer extends React.Component{
             <footer>
                 <p>&copy;Todos os direitos reservados a Edmilson Lino</p>
                 <div id="social-network">
-                    <a href="https://github.com/WarLore" target="_blank"><img src={logo_github} className="logo-github" alt="Logotipo do GitHub" /></a>
-                    <a href="https://www.linkedin.com/in/edmilson-lino" target="_blank"><img src={logo_linkedin} ClassName="logo-linkedin" alt="Logotipo do Linkedin" /></a>
+                    <a href="https://github.com/WarLore" className="link-github" target="_blank"><img src={logo_github} alt="Logotipo do GitHub" /></a>
+                    <a href="https://www.linkedin.com/in/edmilson-lino" ClassName="link-linkedin" target="_blank"><img src={logo_linkedin} alt="Logotipo do Linkedin" /></a>
                 </div>
             </footer>
         )

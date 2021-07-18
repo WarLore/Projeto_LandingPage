@@ -5,11 +5,10 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
-     
+    box-sizing: border-box;    
 }
 body{
-    overflow-x: hidden;
+    width: 100%;
 }
 img{
     margin-left: auto;
@@ -18,8 +17,8 @@ img{
 
 /*Formatação do componente FirstComponent*/
 #first{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,10 +30,8 @@ img{
 
 
 div.title{
-    width: 45vw;
-    height: 50vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    width: 45%;
+    height: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -52,15 +49,15 @@ div.title h1{
 }
 
 div.title p{
+    width: 100%;
     margin-top: 10px;
     font-size: 20px;
     font-weight: 600;
 }
 
 div.form{
-    width: 45vw;
-    height: 40vh;
-    margin-bottom: 10vh;
+    width: 45%;
+    margin: 5% auto;
     padding: 30px;
     background: #e0e0e0;
     border-radius: 10px;
@@ -116,43 +113,32 @@ input.input-submit {
 /*Formatação do componente Products*/
 #products {
     color: red;
-    height: 100vh;
-    height: 40vh;
+    width: 100%;
+    height: 50%;
+    display: flex;
     border: #e0e0e0 1px solid;
     background: #e0e0e0;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 #conteiner{
-    height: 100vh;
-    height: 35vh;
-    margin-top: 2.5vh;
+    width: 100%;
+    height: 20%;
+    margin: 2%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    flex-shrink: 3;
-    /*border: blue 1px solid;*/
-}
-
-img.product-img{
-    margin-top: 15px;
-    width: 90px;
-    height: 100px;    
 }
 
 div.product-card{
-    width: 10vw;
-    height: 35vh;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
+    width: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 div.product-card:hover
@@ -165,7 +151,13 @@ div.product-card:hover
     filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
 }
 
+img.product-img{
+    margin-top: 15px;
+    width: 50%;    
+}
+
 p.name-product{
+    width: 100%;
     color: black;
     font-weight: bold;
     margin: 5px 5px;
@@ -174,8 +166,8 @@ p.name-product{
 }
 
 p.product-price{
-    color: black;
     text-align: center;
+    color: black;
     font-weight: bold;
     color: #fe3b00;
 
@@ -183,50 +175,41 @@ p.product-price{
 
 /*FORMATAÇÃO DO COMPONENTE INFO*/
 #info{
-    height: 100vh;
-    height: 50vh;
-    border-top: #e0e0e0 .1px solid;
-    background: rgb(235,88,59);
-    background: linear-gradient(90deg, rgba(235,88,59,1) 9%, rgba(255,111,0,1) 40%, rgba(254,217,0,1) 100%);
+    width: 100%;
+    height: 65vh;
+    background-image: url('../assets/logo_black.webp');
+    background-size: 450px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ce5935;
+    border: #ce5935 1px solid;
+    /*background: linear-gradient(90deg, rgba(235,88,59,1) 9%, rgba(255,111,0,1) 40%, rgba(254,217,0,1) 100%);*/
 }
 
-#info div.info-img{
-    float: left;
-    margin: 10px 0;
-}
-
-div.info-img img{
-    width: 450px;
-    height: 275px;
-    float: left;
-    margin-left: 40px;
-}
-
-div.text-promo p{
+div.text-promo p{   
     font-size: 2em;
+    text-transform: uppercase;
     color: white;
-    color: #fd3d029d;
     text-align: center;
-    margin: 40px 40px;
+    margin-top: 50px;
     font-weight: bold;
     font-family: 'Fjalla One',  Arial, sans-serif;
 
 }
 
 #partners{
-    margin-top: 10px;
-    
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
 }
 
 #partners p{
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     text-transform: uppercase;
-    color: white;
-    color: black;
     color: #fe3b00;
     font-family: 'Varela Round', Arial, sans-serif;
-    font-weight: 600;    
+    font-weight: 900;    
 }
 
 nav.partners-link ul{
@@ -250,29 +233,19 @@ nav.partners-link a:hover{
     background-color: #ce5935;
 }
 
-nav.partners-link a img{
-    width: 70px;
-    height: 60px;
-    border: white 1px solid;
-}
-
 /*Formatação do componente Footer*/
 #social-network{
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#social-network .logo-github{
-    margin-right: 20px;
+    margin-left: 30px;
 }
 
 footer{
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 8vh;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    line-height: 8vh;
     background: rgb(245,122,91);
     background: linear-gradient(90deg, rgba(245,122,91,1) 19%, rgba(221,156,58,0.9500175070028011) 58%, rgba(242,201,11,1) 79%);
 }
@@ -292,3 +265,4 @@ footer{
     -moz-animation: go-back 1s infinite alternate;
     -o-animation: go-back 1s infinite alternate;
 }
+
