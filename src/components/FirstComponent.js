@@ -18,7 +18,7 @@ export default class FirstComponent extends React.Component{
             console.log(this.state.email)
         }
         this.handleSubmit = (e) => {
-            if(this.state.email == ''){
+            if(this.state.email === ''){
                 window.alert('Por favor, informe seu email.')
             } else{
                 e.preventDefault();  
