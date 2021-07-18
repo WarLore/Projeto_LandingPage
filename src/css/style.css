@@ -277,3 +277,19 @@ footer{
     background: rgb(245,122,91);
     background: linear-gradient(90deg, rgba(245,122,91,1) 19%, rgba(221,156,58,0.9500175070028011) 58%, rgba(242,201,11,1) 79%);
 }
+
+@keyframes go-back {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+.info-img {
+    animation: go-back 1s infinite alternate;
+    -webkit-animation: go-back 1s infinite alternate;
+    -moz-animation: go-back 1s infinite alternate;
+    -o-animation: go-back 1s infinite alternate;
+}

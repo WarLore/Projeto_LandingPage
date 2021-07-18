@@ -3,7 +3,7 @@ import React from 'react';
 import '../css/style.css';
 import logo_black from '../assets/logo_black.webp';
 
-class Info extends React.Component{
+export default class Info extends React.Component{
     render(){
         return(
         <div id="info">
@@ -27,5 +27,3 @@ class Info extends React.Component{
         )
     }
 }
-
-export default Info;

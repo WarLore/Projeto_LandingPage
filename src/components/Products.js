@@ -11,27 +11,27 @@ class Products extends React.Component{
             <div id="products">
                 <div id="conteiner">
                     <div className="product-card">
-                        <img className="product-img" src={ps5} />
+                        <img src={ps5} className="product-img" alt="Foto Playstation 5" />
                         <p className="name-product">Sony Playstation 5</p>
                         <p className="product-price">R$ 4199,00</p>
                     </div>
                     <div className="product-card">
-                        <img src={xbox} className="product-img" />
+                        <img src={xbox} className="product-img" alt="Foto do Xbox Series X" />
                         <p className="name-product">Microsoft Xbox Series X</p>
                         <p className="product-price">R$ 4499,00</p>
                     </div>
                     <div className="product-card">
-                        <img src={capa_imt} className="product-img" />   
+                        <img src={capa_imt} className="product-img" alt="Foto da capa do Immortals" />   
                         <p className="name-product">Immortals Fenyx Rising - PS</p>
                         <p className="product-price">R$ 150,00</p>
                     </div>
                     <div className="product-card">
-                        <img src={homem_aranha} className="product-img" />
+                        <img src={homem_aranha} className="product-img" alt="Foto da capa do Spider-Man" />
                         <p className="name-product">Spider-Man: Miles Morales - PS5</p>
                         <p className="product-price">R$ 180,00</p>
                     </div>
                     <div className="product-card">
-                        <img src={ps4} className="product-img" />
+                        <img src={ps4} className="product-img" alt="Foto do Playstatio 4 PRO" />
                         <p className="name-product">Sony Playstation 4 - PRO</p>
                         <p className="product-price">R$ 2599,00</p>
                     </div>
