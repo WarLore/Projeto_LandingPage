@@ -34,7 +34,7 @@ export default class FirstComponent extends React.Component{
             <div id="first">
                 <div className="title">
                     <h1>Busca suprir o desejo por jogos de uma maneira economica?</h1>
-                    <p>Então assine o nosso NewsLetter e tenha acesso exclusivo as nossas promoções e novidades.</p>
+                    <p>Então assine o nosso Newsletter e tenha acesso exclusivo as nossas promoções e novidades.</p>
                 </div>
                 <div className="form">
                     <form>
