@@ -20,8 +20,3 @@
 
 <li>React</li>
 </ul>
-<div>
-<img src="https://github.com/WarLore/imagens_git/blob/master/componente1.png" width="600" height="300" alt="Primeiro Componente" />
-
-<img src="https://github.com/WarLore/imagens_git/blob/master/componente2.png" width="600" height="300" alt="Segundo Componente" />
-</div>
